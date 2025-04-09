@@ -9,11 +9,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  
 dev_dependencies:
+  flutter_launcher_icons: ^0.14.3
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  solid_lints: ^0.2.3
 
 flutter:
   uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "lib/assets/icon/icon.png"
